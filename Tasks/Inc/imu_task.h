@@ -7,7 +7,7 @@
 
 #ifndef imu_task_H
 #define imu_task_H
-#include "struct_typedef.h"
+#include <stdint.h>
 #include "main.h"
 #include "cmsis_os.h"
 #include "bsp_pwm.h"

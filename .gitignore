@@ -12,6 +12,7 @@ MDK-ARM/*
 Makefile
 startup_stm32f407xx.s
 STM32F407IGHx_FLASH.ld
+build/*
 
 # Include the MDK file (for compiling and the vscode reference)
 !MDK-ARM/Robomaster_Legged_Balance.uvprojx

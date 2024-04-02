@@ -151,10 +151,10 @@ void Chassis_Ctrl(void const *argument)
             Chassis_Send(&g_chassis);
             //Toe_TorqCtrl(0.05f, 0.05f);
         }
-        else 
+        else {
             Chassis_Disable();
             Toe_TorqCtrl(0.0f, 0.0f);
-        
+        }
         vTaskDelayUntil(&xLastWakeTime, TimeIncrement);
     }
 }
